@@ -1,0 +1,123 @@
+Network emulation backend: nfqueue
+
+=== profile: baseline  (no impairment) ===
+[1/108] http json rep 1 ... delivered 100%, median one-way 1.05 ms, 629.4 B/msg on wire
+[2/108] http cbor rep 1 ... delivered 100%, median one-way 1.08 ms, 608.8 B/msg on wire
+[3/108] coap json rep 1 ... delivered 100%, median one-way 1.3 ms, 185.4 B/msg on wire
+[4/108] coap cbor rep 1 ... delivered 100%, median one-way 1.32 ms, 166.0 B/msg on wire
+[5/108] mqtt json rep 1 ... delivered 100%, median one-way 0.94 ms, 701.1 B/msg on wire
+[6/108] mqtt cbor rep 1 ... delivered 100%, median one-way 0.93 ms, 659.9 B/msg on wire
+[7/108] http json rep 2 ... delivered 100%, median one-way 1.13 ms, 629.5 B/msg on wire
+[8/108] http cbor rep 2 ... delivered 100%, median one-way 1.16 ms, 608.9 B/msg on wire
+[9/108] coap json rep 2 ... delivered 100%, median one-way 1.39 ms, 185.5 B/msg on wire
+[10/108] coap cbor rep 2 ... delivered 100%, median one-way 1.38 ms, 166.0 B/msg on wire
+[11/108] mqtt json rep 2 ... delivered 100%, median one-way 0.89 ms, 701.1 B/msg on wire
+[12/108] mqtt cbor rep 2 ... delivered 100%, median one-way 0.94 ms, 660.0 B/msg on wire
+[13/108] http json rep 3 ... delivered 100%, median one-way 1.12 ms, 630.6 B/msg on wire
+[14/108] http cbor rep 3 ... delivered 100%, median one-way 1.16 ms, 610.4 B/msg on wire
+[15/108] coap json rep 3 ... delivered 100%, median one-way 1.29 ms, 185.5 B/msg on wire
+[16/108] coap cbor rep 3 ... delivered 100%, median one-way 1.29 ms, 165.9 B/msg on wire
+[17/108] mqtt json rep 3 ... delivered 100%, median one-way 0.92 ms, 701.0 B/msg on wire
+[18/108] mqtt cbor rep 3 ... delivered 100%, median one-way 0.9 ms, 660.1 B/msg on wire
+
+=== profile: emu_zero  (delay 0ms) ===
+[19/108] http json rep 1 ... delivered 100%, median one-way 1.33 ms, 629.5 B/msg on wire
+[20/108] http cbor rep 1 ... delivered 100%, median one-way 1.32 ms, 610.2 B/msg on wire
+[21/108] coap json rep 1 ... delivered 100%, median one-way 1.51 ms, 185.5 B/msg on wire
+[22/108] coap cbor rep 1 ... delivered 100%, median one-way 1.47 ms, 165.9 B/msg on wire
+[23/108] mqtt json rep 1 ... delivered 100%, median one-way 1.09 ms, 701.0 B/msg on wire
+[24/108] mqtt cbor rep 1 ... delivered 100%, median one-way 1.13 ms, 660.0 B/msg on wire
+[25/108] http json rep 2 ... delivered 100%, median one-way 1.29 ms, 629.3 B/msg on wire
+[26/108] http cbor rep 2 ... delivered 100%, median one-way 1.4 ms, 608.8 B/msg on wire
+[27/108] coap json rep 2 ... delivered 100%, median one-way 1.49 ms, 185.5 B/msg on wire
+[28/108] coap cbor rep 2 ... delivered 100%, median one-way 1.51 ms, 166.0 B/msg on wire
+[29/108] mqtt json rep 2 ... delivered 100%, median one-way 1.18 ms, 700.9 B/msg on wire
+[30/108] mqtt cbor rep 2 ... delivered 100%, median one-way 1.14 ms, 660.0 B/msg on wire
+[31/108] http json rep 3 ... delivered 100%, median one-way 1.38 ms, 629.5 B/msg on wire
+[32/108] http cbor rep 3 ... delivered 100%, median one-way 1.36 ms, 608.9 B/msg on wire
+[33/108] coap json rep 3 ... delivered 100%, median one-way 1.56 ms, 185.6 B/msg on wire
+[34/108] coap cbor rep 3 ... delivered 100%, median one-way 1.54 ms, 166.0 B/msg on wire
+[35/108] mqtt json rep 3 ... delivered 100%, median one-way 1.18 ms, 701.0 B/msg on wire
+[36/108] mqtt cbor rep 3 ... delivered 100%, median one-way 1.2 ms, 660.0 B/msg on wire
+
+=== profile: 4g  (delay 25ms 5ms distribution normal loss 0.5%) ===
+[37/108] http json rep 1 ... delivered 100%, median one-way 29.21 ms, 640.3 B/msg on wire
+[38/108] http cbor rep 1 ... delivered 100%, median one-way 29.47 ms, 609.2 B/msg on wire
+[39/108] coap json rep 1 ... delivered 100%, median one-way 27.08 ms, 186.3 B/msg on wire
+[40/108] coap cbor rep 1 ... delivered 100%, median one-way 27.4 ms, 167.2 B/msg on wire
+[41/108] mqtt json rep 1 ... delivered 100%, median one-way 52.25 ms, 701.2 B/msg on wire
+[42/108] mqtt cbor rep 1 ... delivered 100%, median one-way 52.61 ms, 662.6 B/msg on wire
+[43/108] http json rep 2 ... delivered 100%, median one-way 29.37 ms, 628.8 B/msg on wire
+[44/108] http cbor rep 2 ... delivered 100%, median one-way 29.77 ms, 607.6 B/msg on wire
+[45/108] coap json rep 2 ... delivered 100%, median one-way 27.35 ms, 187.1 B/msg on wire
+[46/108] coap cbor rep 2 ... delivered 100%, median one-way 27.09 ms, 166.0 B/msg on wire
+[47/108] mqtt json rep 2 ... delivered 100%, median one-way 51.62 ms, 703.6 B/msg on wire
+[48/108] mqtt cbor rep 2 ... delivered 100%, median one-way 51.41 ms, 661.2 B/msg on wire
+[49/108] http json rep 3 ... delivered 100%, median one-way 29.96 ms, 630.0 B/msg on wire
+[50/108] http cbor rep 3 ... delivered 100%, median one-way 30.23 ms, 609.8 B/msg on wire
+[51/108] coap json rep 3 ... delivered 100%, median one-way 27.28 ms, 185.5 B/msg on wire
+[52/108] coap cbor rep 3 ... delivered 100%, median one-way 27.2 ms, 166.0 B/msg on wire
+[53/108] mqtt json rep 3 ... delivered 100%, median one-way 52.81 ms, 704.8 B/msg on wire
+[54/108] mqtt cbor rep 3 ... delivered 100%, median one-way 51.84 ms, 661.7 B/msg on wire
+
+=== profile: 3g  (delay 100ms 20ms distribution normal loss 1.5% rate 1mbit) ===
+[55/108] http json rep 1 ... delivered 100%, median one-way 114.47 ms, 632.2 B/msg on wire
+[56/108] http cbor rep 1 ... delivered 100%, median one-way 115.42 ms, 611.1 B/msg on wire
+[57/108] coap json rep 1 ... delivered 100%, median one-way 105.79 ms, 187.0 B/msg on wire
+[58/108] coap cbor rep 1 ... delivered 100%, median one-way 102.29 ms, 166.6 B/msg on wire
+[59/108] mqtt json rep 1 ... delivered 100%, median one-way 210.45 ms, 715.6 B/msg on wire
+[60/108] mqtt cbor rep 1 ... delivered 100%, median one-way 211.86 ms, 669.1 B/msg on wire
+[61/108] http json rep 2 ... delivered 100%, median one-way 114.86 ms, 632.1 B/msg on wire
+[62/108] http cbor rep 2 ... delivered 100%, median one-way 115.06 ms, 611.9 B/msg on wire
+[63/108] coap json rep 2 ... delivered 100%, median one-way 106.21 ms, 185.6 B/msg on wire
+[64/108] coap cbor rep 2 ... delivered 100%, median one-way 102.81 ms, 168.0 B/msg on wire
+[65/108] mqtt json rep 2 ... delivered 100%, median one-way 209.04 ms, 709.7 B/msg on wire
+[66/108] mqtt cbor rep 2 ... delivered 100%, median one-way 214.47 ms, 686.8 B/msg on wire
+[67/108] http json rep 3 ... delivered 100%, median one-way 114.94 ms, 632.8 B/msg on wire
+[68/108] http cbor rep 3 ... delivered 100%, median one-way 115.75 ms, 611.5 B/msg on wire
+[69/108] coap json rep 3 ... delivered 100%, median one-way 104.45 ms, 188.4 B/msg on wire
+[70/108] coap cbor rep 3 ... delivered 100%, median one-way 104.75 ms, 168.0 B/msg on wire
+[71/108] mqtt json rep 3 ... delivered 100%, median one-way 210.03 ms, 713.6 B/msg on wire
+[72/108] mqtt cbor rep 3 ... delivered 100%, median one-way 208.72 ms, 668.0 B/msg on wire
+
+=== profile: 2g  (delay 250ms 50ms distribution normal loss 3% rate 100kbit) ===
+[73/108] http json rep 1 ... delivered 100%, median one-way 308.32 ms, 641.9 B/msg on wire
+[74/108] http cbor rep 1 ... delivered 100%, median one-way 304.44 ms, 615.3 B/msg on wire
+[75/108] coap json rep 1 ... delivered 100%, median one-way 274.98 ms, 190.9 B/msg on wire
+[76/108] coap cbor rep 1 ... delivered 100%, median one-way 265.08 ms, 170.6 B/msg on wire
+[77/108] mqtt json rep 1 ... delivered 100%, median one-way 562.05 ms, 720.5 B/msg on wire
+[78/108] mqtt cbor rep 1 ... delivered 100%, median one-way 553.78 ms, 682.4 B/msg on wire
+[79/108] http json rep 2 ... delivered 100%, median one-way 308.66 ms, 637.6 B/msg on wire
+[80/108] http cbor rep 2 ... delivered 100%, median one-way 301.34 ms, 621.0 B/msg on wire
+[81/108] coap json rep 2 ... delivered 100%, median one-way 270.61 ms, 189.3 B/msg on wire
+[82/108] coap cbor rep 2 ... delivered 100%, median one-way 266.64 ms, 168.0 B/msg on wire
+[83/108] mqtt json rep 2 ... delivered 100%, median one-way 561.23 ms, 724.7 B/msg on wire
+[84/108] mqtt cbor rep 2 ... delivered 100%, median one-way 556.41 ms, 679.3 B/msg on wire
+[85/108] http json rep 3 ... delivered 100%, median one-way 305.3 ms, 640.0 B/msg on wire
+[86/108] http cbor rep 3 ... delivered 100%, median one-way 312.57 ms, 622.8 B/msg on wire
+[87/108] coap json rep 3 ... delivered 100%, median one-way 270.94 ms, 192.3 B/msg on wire
+[88/108] coap cbor rep 3 ... delivered 100%, median one-way 268.41 ms, 170.6 B/msg on wire
+[89/108] mqtt json rep 3 ... delivered 100%, median one-way 555.22 ms, 814.6 B/msg on wire
+[90/108] mqtt cbor rep 3 ... delivered 100%, median one-way 561.52 ms, 685.8 B/msg on wire
+
+=== profile: lossy  (delay 10ms loss 10%) ===
+[91/108] http json rep 1 ... delivered 100%, median one-way 11.65 ms, 635.3 B/msg on wire
+[92/108] http cbor rep 1 ... delivered 100%, median one-way 11.72 ms, 609.9 B/msg on wire
+[93/108] coap json rep 1 ... delivered 100%, median one-way 11.86 ms, 247.0 B/msg on wire
+[94/108] coap cbor rep 1 ... delivered 100%, median one-way 11.78 ms, 622597.9 B/msg on wire
+[95/108] mqtt json rep 1 ... delivered 100%, median one-way 21.79 ms, 719.1 B/msg on wire
+[96/108] mqtt cbor rep 1 ... delivered 100%, median one-way 21.78 ms, 688.5 B/msg on wire
+[97/108] http json rep 2 ... delivered 100%, median one-way 11.59 ms, 638.3 B/msg on wire
+[98/108] http cbor rep 2 ... delivered 100%, median one-way 11.59 ms, 611.2 B/msg on wire
+[99/108] coap json rep 2 ... delivered 100%, median one-way 11.81 ms, 201.4 B/msg on wire
+[100/108] coap cbor rep 2 ... delivered 100%, median one-way 11.82 ms, 181.8 B/msg on wire
+[101/108] mqtt json rep 2 ... delivered 100%, median one-way 21.95 ms, 715.4 B/msg on wire
+[102/108] mqtt cbor rep 2 ... delivered 100%, median one-way 21.88 ms, 677.8 B/msg on wire
+[103/108] http json rep 3 ... delivered 100%, median one-way 11.69 ms, 636.0 B/msg on wire
+[104/108] http cbor rep 3 ... delivered 100%, median one-way 11.71 ms, 610.5 B/msg on wire
+[105/108] coap json rep 3 ... delivered 100%, median one-way 11.84 ms, 203.7 B/msg on wire
+[106/108] coap cbor rep 3 ... delivered 100%, median one-way 11.84 ms, 181.8 B/msg on wire
+[107/108] mqtt json rep 3 ... delivered 100%, median one-way 21.84 ms, 735.7 B/msg on wire
+[108/108] mqtt cbor rep 3 ... delivered 100%, median one-way 21.84 ms, 686.0 B/msg on wire
+
+Done. Results in /home/user/iot-bench/results/summary.csv. Next: python analyze.py

@@ -1,0 +1,10 @@
+paho-mqtt>=2.0
+aiocoap>=0.4.7
+flask>=3.0
+requests>=2.31
+cbor2>=5.6
+psutil>=5.9
+pandas>=2.0
+matplotlib>=3.8
+tabulate>=0.9
+waitress>=3.0

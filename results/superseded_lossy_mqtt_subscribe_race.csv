@@ -1,0 +1,7 @@
+profile,protocol,encoding,rep,sent,acked,delivered,delivery_ratio,duplicates,payload_bytes,wire_bytes_per_msg,oneway_median_ms,oneway_p95_ms,rtt_median_ms,rtt_p95_ms,server_cpu_ms_per_msg,server_peak_rss_mb,duration_s,emulator
+lossy,mqtt,json,1,200,200,200,1.0,0,109,732.0,21.81,251.76,21.87,257.9,0.6,29.1,26.5,nfqueue
+lossy,mqtt,cbor,1,200,200,200,1.0,0,89,686.0,21.83,411.88,21.91,460.51,0.7,29.2,44.6,nfqueue
+lossy,mqtt,json,2,200,200,200,1.0,0,108,733.4,21.69,341.9,21.81,356.59,0.55,29.1,29.8,nfqueue
+lossy,mqtt,cbor,2,200,200,200,1.0,0,89,686.8,21.7,253.53,21.7,258.32,0.65,29.3,27.4,nfqueue
+lossy,mqtt,json,3,200,200,200,1.0,0,109,725.1,21.84,264.62,21.92,282.76,0.6,29.1,28.0,nfqueue
+lossy,mqtt,cbor,3,200,200,199,0.995,0,89,680.3,21.85,273.22,21.94,332.25,0.6,29.1,30.6,nfqueue

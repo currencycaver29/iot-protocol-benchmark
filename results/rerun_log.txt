@@ -1,0 +1,34 @@
+Network emulation backend: nfqueue
+
+=== profile: 2g  (delay 250ms 50ms distribution normal loss 3% rate 100kbit) ===
+[1/6] http json rep 3 ... delivered 100%, median one-way 305.17 ms, 640.8 B/msg on wire
+[2/6] http cbor rep 3 ... delivered 100%, median one-way 307.39 ms, 620.1 B/msg on wire
+[3/6] coap json rep 3 ... delivered 100%, median one-way 264.63 ms, 192.3 B/msg on wire
+[4/6] coap cbor rep 3 ... delivered 100%, median one-way 267.12 ms, 171.3 B/msg on wire
+[5/6] mqtt json rep 3 ... delivered 100%, median one-way 563.31 ms, 716.4 B/msg on wire
+[6/6] mqtt cbor rep 3 ... delivered 100%, median one-way 563.78 ms, 677.7 B/msg on wire
+
+Done. Results in /home/user/iot-bench/results/summary.csv. Next: python analyze.py
+Network emulation backend: nfqueue
+
+=== profile: lossy  (delay 10ms loss 10%) ===
+[1/18] http json rep 1 ... delivered 100%, median one-way 11.67 ms, 639.0 B/msg on wire
+[2/18] http cbor rep 1 ... delivered 100%, median one-way 11.69 ms, 615.9 B/msg on wire
+[3/18] coap json rep 1 ... delivered 100%, median one-way 11.87 ms, 195.5 B/msg on wire
+[4/18] coap cbor rep 1 ... delivered 100%, median one-way 11.81 ms, 185.1 B/msg on wire
+[5/18] mqtt json rep 1 ... delivered 100%, median one-way 21.81 ms, 732.0 B/msg on wire
+[6/18] mqtt cbor rep 1 ... delivered 100%, median one-way 21.83 ms, 686.0 B/msg on wire
+[7/18] http json rep 2 ... delivered 100%, median one-way 11.71 ms, 633.4 B/msg on wire
+[8/18] http cbor rep 2 ... delivered 100%, median one-way 11.56 ms, 608.4 B/msg on wire
+[9/18] coap json rep 2 ... delivered 100%, median one-way 11.75 ms, 200.6 B/msg on wire
+[10/18] coap cbor rep 2 ... delivered 100%, median one-way 11.66 ms, 182.5 B/msg on wire
+[11/18] mqtt json rep 2 ... delivered 100%, median one-way 21.69 ms, 733.4 B/msg on wire
+[12/18] mqtt cbor rep 2 ... delivered 100%, median one-way 21.7 ms, 686.8 B/msg on wire
+[13/18] http json rep 3 ... delivered 100%, median one-way 11.53 ms, 628.4 B/msg on wire
+[14/18] http cbor rep 3 ... delivered 100%, median one-way 11.62 ms, 612.6 B/msg on wire
+[15/18] coap json rep 3 ... delivered 100%, median one-way 11.7 ms, 205.2 B/msg on wire
+[16/18] coap cbor rep 3 ... delivered 100%, median one-way 11.74 ms, 181.1 B/msg on wire
+[17/18] mqtt json rep 3 ... delivered 100%, median one-way 21.84 ms, 725.1 B/msg on wire
+[18/18] mqtt cbor rep 3 ... delivered 100%, median one-way 21.85 ms, 680.3 B/msg on wire
+
+Done. Results in /home/user/iot-bench/results/summary.csv. Next: python analyze.py
